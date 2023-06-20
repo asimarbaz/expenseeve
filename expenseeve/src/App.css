@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+
+* {
+  font-family: Sono;
+}
+
+.App {
+  text-align: center;
+}
+
+.app-name {
+  margin:20px 0;
+  color:#f1356d;
+}
+
+.app-name a{
+  text-decoration: none;
+}
+
+.app-name button:hover {
+  text-decoration: none;
+  background-color: black;
+}
+
+
+.navbar {
+  width:20%;
+  float:left;
+  background-color: bisque;
+  height:100%; 
+  padding:0;
+  margin:0;
+  position: fixed;
+}
+
+
+.navbar a{
+  display:block;
+  text-decoration: none;
+  padding: 8px 16px;
+  background-color:aquamarine;
+}
+
+a:hover:not(.email) {
+  background-color: black;
+  color:white;
+}
+
+.routes {
+  /* background-color: blue; */
+  width:80%;
+  float:right;
+  height:100%;
+  /* position: fixed; */
+  right:0;
+}
+
+.form {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form label {
+  text-align: left;
+  display: block;
+}
+
+.form input:not(.submit), .form textarea, .form select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.form button  {
+  background: #2fc7cf;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 10px;
+  width: 20%;
+}
+
+button:not(.login-logout)  {
+  background: #2fc7cf;
+  color: #fff;
+  border: 0;
+  /* padding: 8px; */
+  border-radius: 8px;
+  cursor: pointer;
+  /* margin: 10px; */
+  /* width: 20%; */
+}
+
+.submit {
+  background: #2fc7cf;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.budget-overview, .category-wise {
+  text-align: left;
+  padding-left:20px;
+  display:inline-block;
+  margin:20px;
+  width:45%;
+  height:350px;
+  align-content: space-around;
+  border:1px solid black;
+  border-radius: 20px;
+  box-shadow: 1px 1px black;
+}
+
+table {
+  width:90%;
+  border-collapse: collapse;
+  margin:auto;
+}
+
+td {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: #eee;
+}
+
+.expenselist, .deleted {
+  margin:20px;
+  border:1px solid black;
+  border-radius: 20px;
+  box-shadow: 1px 1px black;
+}
+
+.expenselist table {
+  margin-bottom:20px;
+}
+
+.deleted {
+  padding:15px;
+  margin:20px; 
+  border:1px solid black;
+  border-radius: 20px;
+  box-shadow: 1px 1px black;
+}
+
+/* .circle {
+  width:100px;
+  height:100px;
+  border-radius: 50%;
+  background-color: #f1356d;
+  background: blue;
+   border: 10px solid red; 
+  text-align: center;
+  vertical-align: middle; 
+  display: inline-block;
+} */
+
+article {
+  text-align: left;
+  width:70%;
+  margin:auto;
+}
+
+article img {
+  float:right;
+}
+
+.login > LoginModal, Button{
+  margin:0 10px;
+}
+
+.home-page {
+  display: flex;
+}
+
+.dashboard {
+  height:100%;
+} 
